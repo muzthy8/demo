@@ -1,0 +1,132 @@
+.body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+.header-wrapper{
+    width: 100%;
+    height: 270px;
+    background-color: #565656;
+}
+@media (max-width:720px) {
+  .header-wrapper{
+    width: 720px;
+    height: 270px;
+    background-color: #565656;
+}  
+}
+ .white-banner{
+    position: absolute;
+    width: 720px;
+    height: 30px;
+    background-color: #eeeeee;
+    margin-top: 1px;
+}
+.profile-wrapper{
+    margin: auto;
+    text-align: center;
+}
+.profile-picture{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: 3px;
+    border: 4px #fabe28 dotted;
+    border-radius: 100px;
+}
+.profile-name{
+    position: relative;
+    color: black;
+    background-color:#fabe28;
+    font-size: 40px;
+    border: 5px #fabe28;
+    border-radius: 100px;
+    padding: 8px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0px;
+}
+.contact-wrapper{
+    margin: auto;
+    display: inline-flex;
+    text-align: center;
+    padding-top: 2px;
+}
+.body-wrapper{
+    display: flex;
+    /* background-color: #fabe28;
+    height: 400px; */
+}
+ .first-half,.second-half{
+    display: flex;
+    flex-direction: column ;
+    background-color: #eeeeee;
+    margin: 3px;
+    width: 50%;
+    padding: auto;
+ }
+ .first-half+.second-half{
+    border-left: 1px solid #565656;
+ }    
+.icon{
+    color: #fabe28;
+    margin-top: 4px;
+}
+.icon-backround{
+    width: 75px;
+    height: 40px;
+    background-color: #565656;
+    text-align: center;
+    border-radius: 50%;
+}
+.icon-wrapper{
+    width: 75px;
+    height: 40px;
+    border: 2px dotted #fabe28;
+    border-radius: 55%;
+}
+.title-wrapper{
+    display: flex;
+    padding: 10px;
+    
+}
+.title{
+    font-size: xx-large;
+    display: inline-flex;
+    text-align: start;
+    padding: 5px;
+    color: #565656;
+}
+.content-title{
+    font-size: larger;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skill-table{
+    width: 100%;
+}    
+progress[value]{
+    -webkit-appearance: none;
+    width: 100px;
+    height: 5px;
+    appearance: none;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: #ffff;
+    border-radius: 2px;
+}
+progress[value]::-webkit-progress-bar {
+    background-image: -webkit-linear-gradient(left, #fabe28, #eeee);
+
+    border-radius:2px;
+    /* background-size: 3px,20px, 100% 100%, 100% 100%; */
+}
+.work-details{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.li{
+    padding:5px;
+}
